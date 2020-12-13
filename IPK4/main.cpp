@@ -3,7 +3,7 @@
 using namespace vecstuff;
 
 int main(){
-    /*
+    
     auto * vecobj = new vecstuff::BasicVectorOps();
     vecobj->printContents();
     
@@ -20,9 +20,10 @@ int main(){
     cout << "round in place" << endl;
     vecobj->roundInPlace(vecobj->fractionBoi);
     vecobj->printContents();
-    */
-   
+    
+    /*
     auto CH = ConvexHull("../inputPoints.txt");
     auto points = CH.convex_hull();
     CH.writePointsToFile(points, "../outputHull.txt");
+    */
 }
