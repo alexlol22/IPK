@@ -36,4 +36,4 @@
 *.code-workspace
 
 # Any binaires
-*/bin/*
+bin/
