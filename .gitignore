@@ -32,8 +32,15 @@
 *.app
 
 # VSCode Workspace
-*/.vscode
-*.code-workspace
+**.vscode
+workspace.code-workspace
 
 # Any binaires
-bin/
+**bin/
+
+# Build folders
+**build/
+
+# Random clutter
+*.pdf
+IPK4/outputHull.txt
