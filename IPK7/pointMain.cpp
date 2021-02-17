@@ -1,12 +1,14 @@
 #include "point.h"
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 int main(){
     Point<double, 2> p;
     p[0] = 1;
     p[1] = 1;
+    
     /*
     p.x(2) = 4.6;
     */
